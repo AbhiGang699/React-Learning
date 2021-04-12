@@ -62,6 +62,7 @@ class Movies extends Component {
       currentGenre,
       sortColumn,
     } = this.state;
+
     const currentGenreMovies =
       this.state.currentGenre === "0"
         ? movies
